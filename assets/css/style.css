@@ -1,0 +1,140 @@
+/* --- GLOBAL STYLES & TYPOGRAPHY --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5; /* A softer gray */
+}
+
+/* --- SIDEBAR & NAVIGATION --- */
+.sidebar {
+    background-color: #111827; /* Darker, more modern background */
+    transition: width 0.3s ease;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.375rem;
+    color: #d1d5db; /* Lighter gray for better contrast */
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    background-color: #374151; /* A nice hover effect */
+    color: #ffffff;
+}
+
+/* --- MAIN CONTENT & CARDS --- */
+.main-content-header h1 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 0.75rem; /* More rounded corners */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+/* --- FORMS & BUTTONS --- */
+.form-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn-primary {
+    background-color: #4f46e5;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #4338ca;
+}
+
+.btn-danger {
+    background-color: #dc2626;
+    color: #ffffff;
+}
+.btn-danger:hover {
+    background-color: #b91c1c;
+}
+
+/* --- TABLES --- */
+.data-table {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden; /* For rounded corners on the table */
+}
+
+.data-table th, .data-table td {
+    padding: 1rem 1.25rem;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.data-table th {
+    background-color: #f9fafb;
+    font-weight: 600;
+    color: #374151;
+}
+
+.data-table tbody tr:hover {
+    background-color: #f9fafb;
+}
+
+/* --- ALERTS --- */
+.alert {
+    padding: 1rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+}
+
+.alert-success {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.alert-danger {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
